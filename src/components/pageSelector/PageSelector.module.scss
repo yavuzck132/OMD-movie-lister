@@ -1,0 +1,13 @@
+.pageButtonWrapper{
+    margin-top: 10px;
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    button{
+        padding: 5px;
+        border-radius: 3px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

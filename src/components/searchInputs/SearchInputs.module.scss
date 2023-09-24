@@ -1,0 +1,50 @@
+.buttonWrap{
+    button{
+        margin: 0px  10px 0px 0px;
+        padding: 5px;
+        border-radius: 3px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .selectedButton{
+        background-color: rgb(9, 9, 122);
+        color: white;
+    }
+}
+
+.inputWrap{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    label{
+        padding: 5px;
+    }
+    input{
+        border-radius: 3px;
+        padding: 5px;
+    }
+    .seasonLabel{
+        position: absolute;
+        left: 270px;
+        padding: 3px;
+    }
+}
+
+.searchButton{
+    margin: 0px  10px 0px 0px;
+        padding: 5px;
+        border-radius: 3px;
+        &:hover{
+            cursor: pointer;
+        }
+    background-color: rgb(13, 139, 146);
+    color: white;
+}
+
+.yearWarning{
+    color: red;
+    padding-left: 5px;
+    font-size: 12px;
+}

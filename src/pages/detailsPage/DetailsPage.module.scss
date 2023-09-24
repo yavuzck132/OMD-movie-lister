@@ -1,0 +1,8 @@
+.mainWrap{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 25% 10% 60%;
+    img{
+        max-width: 100%;
+    }
+}
